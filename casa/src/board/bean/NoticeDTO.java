@@ -1,8 +1,8 @@
-package board.notice.bean;
+package board.bean;
 
 import java.sql.Timestamp;
 
-public class NoticeDataBean {
+public class NoticeDTO {
 
 	private int num;
 	private String subject;

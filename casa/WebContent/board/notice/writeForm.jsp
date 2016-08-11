@@ -11,23 +11,25 @@
 </head>
 <body>
 	<form method="post" name="writeform"
-		action="/casa/board/notice/writePro.casa"
-		enctype=”multipart/form=data”>
+		action="/casa/board/notice/writePro.do" enctype="multipart/form-data">
 
-		<table width="700" align="center">
+		<table border="1" width="700" cellpadding="0" cellspacing="0"
+			align="center">
 			<tr>
-				<td><input type="text" size="40" maxlength="50" name="subject"
+				<td><input type="text" size="75" maxlength="50" name="subject"
 					placeholder="subject" /></td>
 			<tr>
-				<td><textarea name="content" rows="13" cols="40"
+				<td><textarea name="content" rows="40" cols="80"
 						placeholder="content"></textarea></td>
 			<tr>
-				<td><input type="file" name="save" /> <input
-					type="submit" value="글쓰기"></td>
+				<td><input type="file" name="save" /></td>
 			</tr>
 
-
+			<tr>
+				<td align="right"><input type="submit" value="글쓰기"></td>
+			</tr>
 
 		</table>
+	</form>
 </body>
 </html>

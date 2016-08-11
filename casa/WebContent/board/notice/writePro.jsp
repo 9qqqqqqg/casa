@@ -9,4 +9,4 @@
 </head>
 <body>
 
-<meta http-equiv="Refresh" content="0;url=/casa/main.casa">
+<meta http-equiv="Refresh" content="0;url=/casa/board/notice/list.do">
